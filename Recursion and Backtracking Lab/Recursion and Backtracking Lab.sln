@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursive Factorial", "Recu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find All Paths in a Labyrinth", "Find All Paths in a Labyrinth\Find All Paths in a Labyrinth.csproj", "{5EDBA1F9-9937-4F93-8F97-75B33C4B396B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queens Puzzle", "Queens Puzzle\Queens Puzzle.csproj", "{D5DF2718-FD2C-4DE0-AE8D-21FB01461227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursive Fibonacci", "Recursive Fibonacci\Recursive Fibonacci.csproj", "{66135123-D6BE-41E6-8882-022AF5DAE092}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{5EDBA1F9-9937-4F93-8F97-75B33C4B396B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EDBA1F9-9937-4F93-8F97-75B33C4B396B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EDBA1F9-9937-4F93-8F97-75B33C4B396B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DF2718-FD2C-4DE0-AE8D-21FB01461227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DF2718-FD2C-4DE0-AE8D-21FB01461227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DF2718-FD2C-4DE0-AE8D-21FB01461227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DF2718-FD2C-4DE0-AE8D-21FB01461227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66135123-D6BE-41E6-8882-022AF5DAE092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66135123-D6BE-41E6-8882-022AF5DAE092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66135123-D6BE-41E6-8882-022AF5DAE092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66135123-D6BE-41E6-8882-022AF5DAE092}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
