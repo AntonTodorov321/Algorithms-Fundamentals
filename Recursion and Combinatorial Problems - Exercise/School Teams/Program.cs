@@ -1,5 +1,4 @@
 ﻿
-
 string[] girls = Console.ReadLine().Split(", ");
 string[] boys = Console.ReadLine().Split(", ");
 
