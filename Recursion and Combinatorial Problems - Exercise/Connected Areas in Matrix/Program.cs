@@ -1,6 +1,10 @@
-﻿public class Program
+﻿
+public class Program
 {
+    private const char VisitedSymbol = 'V';
+
     private static char[,] matrix;
+    private static int areaSize;
 
     public static void Main()
     {
@@ -24,9 +28,9 @@
         {
             for (int col = 0; col < cols; col++)
             {
-                int areaSize = 0;
+                areaSize = 0;
 
-                GetArea(row, col, ref areaSize);
+                GetArea(row, col);
 
                 if (areaSize != 0)
                 {
@@ -50,28 +54,33 @@
         }
     }
 
-    static void GetArea(int row, int col, ref int areaSize)
+    static void GetArea(int row, int col)
     {
-        if (!IsCellValid(row, col) || IsCellBlocked(row, col) || matrix[row, col] == 'V')
+        if (!IsCellValid(row, col) || IsWall(row, col) || IsVisited(row, col))
         {
             return;
         }
 
-        matrix[row, col] = 'V';
+        matrix[row, col] = VisitedSymbol;
         areaSize++;
 
-        GetArea(row - 1, col, ref areaSize);
-        GetArea(row + 1, col, ref areaSize);
-        GetArea(row, col - 1, ref areaSize);
-        GetArea(row, col + 1, ref areaSize);
+        GetArea(row - 1, col);
+        GetArea(row + 1, col);
+        GetArea(row, col - 1);
+        GetArea(row, col + 1);
     }
 
-    static bool IsCellBlocked(int row, int col)
+    private static bool IsVisited(int row, int col)
+    {
+        return matrix[row, col] == VisitedSymbol;
+    }
+
+    private static bool IsWall(int row, int col)
     {
         return matrix[row, col] == '*';
     }
 
-    static bool IsCellValid(int row, int col)
+    private static bool IsCellValid(int row, int col)
     {
         return row >= 0 && row < matrix.GetLength(0) &&
                col >= 0 && col < matrix.GetLength(1);
