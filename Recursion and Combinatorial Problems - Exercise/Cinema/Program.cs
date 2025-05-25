@@ -44,13 +44,13 @@ void GenerateFriendsPosition(int index)
 
 void PrintFriends()
 {
-    int index = 0;
+    int nonStaticIndex = 0;
 
     for (int i = 0; i < fixedFriends.Length; i++)
     {
         if (!fixedFriendsPosition[i])
         {
-            fixedFriends[i] = friends[index++];
+            fixedFriends[i] = friends[nonStaticIndex++];
         }
     }
 
