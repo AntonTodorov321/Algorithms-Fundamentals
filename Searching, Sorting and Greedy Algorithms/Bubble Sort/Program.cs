@@ -1,5 +1,4 @@
 ﻿
-
 int[] numbers = Console.ReadLine()
                 .Split(" ")
                 .Select(int.Parse)
@@ -14,7 +13,7 @@ void BubbleSort()
     int sortedCount = 0;
     bool isSorted = false;
 
-    while (!isSorted)
+    while (!isSorted)   
     {
         isSorted = true;
 
