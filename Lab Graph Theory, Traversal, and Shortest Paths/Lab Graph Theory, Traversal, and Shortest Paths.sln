@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topological Sorting", "Topo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topological Sorting DFS", "Topological Sorting DFS\Topological Sorting DFS.csproj", "{C0152AEE-ACB4-4ACB-A90C-06670016C4A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shortest Path", "Shortest Path\Shortest Path.csproj", "{EDD353AD-F828-46DC-890C-7E40EEBE18A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C0152AEE-ACB4-4ACB-A90C-06670016C4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0152AEE-ACB4-4ACB-A90C-06670016C4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0152AEE-ACB4-4ACB-A90C-06670016C4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD353AD-F828-46DC-890C-7E40EEBE18A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD353AD-F828-46DC-890C-7E40EEBE18A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD353AD-F828-46DC-890C-7E40EEBE18A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD353AD-F828-46DC-890C-7E40EEBE18A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
