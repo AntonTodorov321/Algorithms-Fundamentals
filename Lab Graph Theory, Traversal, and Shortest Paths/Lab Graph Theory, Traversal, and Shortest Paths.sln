@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connected Components", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topological Sorting", "Topological Sorting\Topological Sorting.csproj", "{26C2C620-A1EB-4687-8C1A-F8BB44BE2D67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topological Sorting DFS", "Topological Sorting DFS\Topological Sorting DFS.csproj", "{C0152AEE-ACB4-4ACB-A90C-06670016C4A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{26C2C620-A1EB-4687-8C1A-F8BB44BE2D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26C2C620-A1EB-4687-8C1A-F8BB44BE2D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26C2C620-A1EB-4687-8C1A-F8BB44BE2D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0152AEE-ACB4-4ACB-A90C-06670016C4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0152AEE-ACB4-4ACB-A90C-06670016C4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0152AEE-ACB4-4ACB-A90C-06670016C4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0152AEE-ACB4-4ACB-A90C-06670016C4A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
