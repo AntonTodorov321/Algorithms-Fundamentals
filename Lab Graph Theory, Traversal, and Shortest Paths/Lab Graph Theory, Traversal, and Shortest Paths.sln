@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.36105.23 d17.13
+VisualStudioVersion = 17.13.36105.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connected Components", "Connected Components\Connected Components.csproj", "{ECA4AE59-F22D-49F9-A65E-8AB62B524FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topological Sorting", "Topological Sorting\Topological Sorting.csproj", "{26C2C620-A1EB-4687-8C1A-F8BB44BE2D67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ECA4AE59-F22D-49F9-A65E-8AB62B524FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECA4AE59-F22D-49F9-A65E-8AB62B524FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECA4AE59-F22D-49F9-A65E-8AB62B524FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26C2C620-A1EB-4687-8C1A-F8BB44BE2D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C2C620-A1EB-4687-8C1A-F8BB44BE2D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C2C620-A1EB-4687-8C1A-F8BB44BE2D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C2C620-A1EB-4687-8C1A-F8BB44BE2D67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

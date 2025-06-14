@@ -1,6 +1,4 @@
 ﻿
-using System.Runtime.CompilerServices;
-
 int n = int.Parse(Console.ReadLine());
 List<int>[] graph = new List<int>[n];
 bool[] visited = new bool[n];
@@ -28,25 +26,31 @@ for (int node = 0; node < n; node++)
     if (!visited[node])
     {
         List<int> component = new List<int>();
-        DFS(node, component);
+        BFS(node, component);
 
         Console.WriteLine($"Connected component: {string.Join(" ", component)}");
     }
 }
 
-void DFS(int node, List<int> component)
+void BFS(int startNode, List<int> component)
 {
-    if (visited[node])
+    Queue<int> queue = new Queue<int>();
+    queue.Enqueue(startNode);
+    visited[startNode] = true;
+
+    while (queue.Count > 0)
     {
-        return;
+        int currentNode = queue.Dequeue();
+        component.Add(currentNode);
+
+        foreach (var child in graph[currentNode])
+        {
+            if (!visited[child])
+            {
+                visited[child] = true;
+                queue.Enqueue(child);
+            }
+        }
     }
 
-    visited[node] = true;
-
-    foreach (var child in graph[node])
-    {
-        DFS(child, component);
-    }
-
-    component.Add(node);
 }
