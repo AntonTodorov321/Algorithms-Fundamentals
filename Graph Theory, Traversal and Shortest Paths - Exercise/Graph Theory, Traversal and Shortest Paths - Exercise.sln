@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Areas in Matrix", "Areas in
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cycles in a Graph", "Cycles in a Graph\Cycles in a Graph.csproj", "{03E05FBB-524C-4E27-B06A-6A767D2ED9AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salaries", "Salaries\Salaries.csproj", "{31D36E33-BFDA-4BF6-ACDE-089DA9757D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Break Cycles", "Break Cycles\Break Cycles.csproj", "{DA78ECBC-B6B5-4F54-81C2-36FD34D8AB4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{03E05FBB-524C-4E27-B06A-6A767D2ED9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03E05FBB-524C-4E27-B06A-6A767D2ED9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03E05FBB-524C-4E27-B06A-6A767D2ED9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D36E33-BFDA-4BF6-ACDE-089DA9757D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D36E33-BFDA-4BF6-ACDE-089DA9757D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D36E33-BFDA-4BF6-ACDE-089DA9757D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D36E33-BFDA-4BF6-ACDE-089DA9757D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA78ECBC-B6B5-4F54-81C2-36FD34D8AB4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA78ECBC-B6B5-4F54-81C2-36FD34D8AB4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA78ECBC-B6B5-4F54-81C2-36FD34D8AB4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA78ECBC-B6B5-4F54-81C2-36FD34D8AB4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
