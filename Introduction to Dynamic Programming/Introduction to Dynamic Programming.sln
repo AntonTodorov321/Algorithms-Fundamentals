@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subset sum with repetition"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Move Down Right", "Move Down Right\Move Down Right.csproj", "{9070859B-3AA6-4A21-8668-975E33CD7063}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Longest Common Subsequence", "Longest Common Subsequence\Longest Common Subsequence.csproj", "{4D5C3026-E6B5-49EB-915E-A91F96213747}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{9070859B-3AA6-4A21-8668-975E33CD7063}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9070859B-3AA6-4A21-8668-975E33CD7063}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9070859B-3AA6-4A21-8668-975E33CD7063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5C3026-E6B5-49EB-915E-A91F96213747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5C3026-E6B5-49EB-915E-A91F96213747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5C3026-E6B5-49EB-915E-A91F96213747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5C3026-E6B5-49EB-915E-A91F96213747}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
