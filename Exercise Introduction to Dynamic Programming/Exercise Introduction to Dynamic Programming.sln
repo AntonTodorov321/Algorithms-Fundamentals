@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binomial Coefficients", "Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dividing Presents", "Dividing Presents\Dividing Presents.csproj", "{7AC38B31-B3AE-4EF3-BFED-3BE19A1EC04C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum with Unlimited Amount of Coins", "Sum with Unlimited Amount of Coins\Sum with Unlimited Amount of Coins.csproj", "{DCC645B5-EBED-49D4-9508-DADF3AA5B2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum with Limited Amount of Coins", "Sum with Limited Amount of Coins\Sum with Limited Amount of Coins.csproj", "{4148C779-CF09-4912-9233-14B1698254FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{7AC38B31-B3AE-4EF3-BFED-3BE19A1EC04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AC38B31-B3AE-4EF3-BFED-3BE19A1EC04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AC38B31-B3AE-4EF3-BFED-3BE19A1EC04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC645B5-EBED-49D4-9508-DADF3AA5B2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC645B5-EBED-49D4-9508-DADF3AA5B2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC645B5-EBED-49D4-9508-DADF3AA5B2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC645B5-EBED-49D4-9508-DADF3AA5B2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4148C779-CF09-4912-9233-14B1698254FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4148C779-CF09-4912-9233-14B1698254FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4148C779-CF09-4912-9233-14B1698254FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4148C779-CF09-4912-9233-14B1698254FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
