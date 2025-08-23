@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sum with Limited Amount of 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word Differences", "Word Differences\Word Differences.csproj", "{7C466B08-3C2B-4994-A7CF-A69A8CF49D4F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connecting Cables", "Connecting Cables\Connecting Cables.csproj", "{7393E218-0BEB-4F66-BE74-AD9ED2D4BC59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minimum Edit Distance", "Minimum Edit Distance\Minimum Edit Distance.csproj", "{557D1B1F-20A7-4374-94BB-461DC611A1E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{7C466B08-3C2B-4994-A7CF-A69A8CF49D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C466B08-3C2B-4994-A7CF-A69A8CF49D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C466B08-3C2B-4994-A7CF-A69A8CF49D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7393E218-0BEB-4F66-BE74-AD9ED2D4BC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7393E218-0BEB-4F66-BE74-AD9ED2D4BC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7393E218-0BEB-4F66-BE74-AD9ED2D4BC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7393E218-0BEB-4F66-BE74-AD9ED2D4BC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{557D1B1F-20A7-4374-94BB-461DC611A1E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{557D1B1F-20A7-4374-94BB-461DC611A1E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{557D1B1F-20A7-4374-94BB-461DC611A1E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{557D1B1F-20A7-4374-94BB-461DC611A1E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -23,7 +23,7 @@
             {
                 for (int col = 1; col < matrix.GetLength(1); col++)
                 {
-                    if (firstString[col - 1] == secondString[row - 1])
+                    if (firstString[row - 1] == secondString[col - 1])
                     {
                         matrix[row, col] = matrix[row - 1, col - 1];
                     }
