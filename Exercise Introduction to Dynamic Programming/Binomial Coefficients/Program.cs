@@ -1,7 +1,6 @@
 ﻿namespace Binomial_Coefficients
 {
     using System;
-    using System.Numerics;
 
     internal class Program
     {

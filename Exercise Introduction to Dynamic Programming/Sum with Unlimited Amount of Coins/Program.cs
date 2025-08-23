@@ -12,7 +12,6 @@
             int target = int.Parse(Console.ReadLine());
 
             Console.WriteLine(CountSum(numbers, target));
-            ;
         }
 
         private static int CountSum(int[] numbers, int target)
