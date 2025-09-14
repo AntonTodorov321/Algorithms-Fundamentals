@@ -37,11 +37,15 @@
 
             DFS(start);
 
-            int[] unreachable = used
-                                   .Select((value, index) => new { value, index })
-                                   .Where(x => !x.value && x.index != 0)
-                                   .Select(x => x.index)
-                                   .ToArray();
+            List<int> unreachable = new List<int>();
+
+            for (int i = 1; i < used.Length; i++)
+            {
+                if (!used[i])
+                {
+                    unreachable.Add(i);
+                }
+            }
 
             Console.WriteLine(string.Join(" ", unreachable));
         }
