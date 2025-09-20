@@ -1,7 +1,6 @@
 ﻿namespace Strings_Mashup
 {
     using System;
-    using System.Security;
 
     internal class Program
     {
@@ -13,23 +12,18 @@
             text = Console.ReadLine();
             result = new char[text.Length];
 
-            for (int i = 0; i < text.Length; i++)
-            {
-                result[i] = text[i];
-            }
-
             Permute(0);
         }
 
         private static void Permute(int index)
         {
-            if (index == result.Length)
+            if (index == text.Length)
             {
                 Console.WriteLine(string.Join("", result));
                 return;
             }
 
-            char currentChar = result[index];
+            char currentChar = text[index];
 
             if (char.IsLetter(currentChar))
             {
